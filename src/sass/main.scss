@@ -1,0 +1,21 @@
+// Configuration
+@import "base/variables";
+
+// Reset
+@import "base/normalize";
+@import "base/reset";
+
+// Components
+@import "components/fonts";
+@import "components/buttons";
+@import "components/navigation";
+@import "components/forms";
+
+//Layout
+@import "layout/header";
+@import "layout/services";
+@import "layout/cafemenu";
+@import "layout/about";
+@import "layout/store";
+@import "layout/contact";
+@import "layout/footer";

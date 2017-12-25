@@ -1,0 +1,56 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 16px;
+}
+
+input {
+  color: $form-font-color;
+  font-family: $body-font-family;
+  font-size: $span;
+  width: $form-height;
+  height: $form-width;
+  background-color: $form-background-color;
+  border: none;
+  padding-left: 10px;
+}
+
+textarea {
+  color: $form-font-color;
+  font-family: $body-font-family;
+  font-size: $span;
+  width: $form-height;
+  height: $form-width;
+  background-color: $form-background-color;
+  border: none;
+  padding-left: 10px;
+}
+
+.form-info {
+  width: 90%;
+}
+
+.form-button {
+  margin-bottom: 100px;
+  background: none;
+  border: $border-dark;
+  border-radius: $button-border-radius;
+  height: 44px;
+  width: 90%;
+  text-align: center;
+  color: $border-color-dark;
+  font-family: $body-font-family;
+  font-size: $paragraph;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  &:hover,
+  &:focus {
+    transition: 0.25s;
+    box-shadow:
+    inset -230px 0 0 0 $primary-color,
+    inset 230px 0 0 0 $primary-color;
+  }
+}

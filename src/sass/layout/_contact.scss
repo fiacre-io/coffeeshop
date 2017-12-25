@@ -1,0 +1,50 @@
+/*     Contact*/
+
+.contact-main {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 10px;
+  margin: $margin-auto;
+}
+
+.contact {
+ background-color: $background-color;
+ min-height: $min-height;
+ padding: 0;
+ h2 {
+  padding: $section-title;
+  text-align: center;
+  margin-top: 0;
+}
+span {
+  color: $secondary-color-dark;
+}
+}
+
+.contact-form {
+  margin: 0 0 0 2rem;
+}
+
+.contact-info li {
+  margin: 25px 0;
+  list-style: none;
+}
+
+.p-contact {
+  color: #373737;
+  font-family: $body-font-family;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.fa {
+  color: #daa501;
+  width: 38px;
+  height: 37px;
+  border: 2px solid #daa501;
+  border-radius: $border-radius;
+  padding: 4px;
+  text-align: center;
+  margin-right: 1rem;
+}

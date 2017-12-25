@@ -1,0 +1,77 @@
+// /* Variables
+//  * ===============
+
+// /* Layout */
+
+$min-height: 100vh;
+$border-radius: 50%;
+$margin-auto: 0 auto;
+$section-title: 70px 0 0 0;
+
+// /* Colors */
+
+$primary-color: #facb36;
+$secondary-color-light: #e2e1e1;
+$secondary-color-dark: #101311;
+$background-color: #f4f4f4;
+
+
+// /* Forms */
+$form-background-color: #e8e8e8;
+$form-font-color: #101311;
+$form-height: 268px;
+$form-width: 44px;
+
+// // Font
+$font-size: 1rem;
+$body-font-size: 1rem;
+$font-style: normal;
+$font-variant: normal;
+$font-weight: normal;
+$nav-color: #f4f4f4;
+$heading-font-family: 'Economica', Helvetica, Arial, sans-serif;
+$body-font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+$heading-line-height: 1.2;
+
+
+// // Heading font size
+$h1: 3.583rem;
+$h2: 2.488rem;
+$h3: 1.44rem;
+$h4: 1.2rem;
+$paragraph: 1rem;
+$span: 0.9rem;
+
+
+// /* Padding */
+
+$padding: 1rem;
+$margin: 1rem;
+
+// /* Buttons */
+
+$button-background: none;
+$button-text-align: center;
+$button-color-light: #faca36;
+$button-color-dark: #303B3B;
+$button-color-hover: #303B3B;
+$button-font-weight: 400;
+$button-font-family: 'Quicksand', Helvetica, sans-serif;
+$button-font-size: 20px;
+$button-transition: 0.25s;
+$button-width: 190px;
+$button-height: 44px;
+$button-width-store: 150px;
+$button-height-store: 48px;
+
+// /* Button Borders */
+
+
+$border-color-light: #facb36;
+$border-color-dark: #303B3B;
+$button-border-radius: 5px;
+$border-width: 2px;
+$border-style: solid;
+$border-light: $border-width $border-style $border-color-light;
+$border-dark: $border-width $border-style $border-color-dark;
+$footer-button: $border-width $border-style $background-color;

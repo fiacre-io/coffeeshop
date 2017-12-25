@@ -1,0 +1,67 @@
+/* Fonts
+  =============== */
+
+html {
+  font-size: 1.25rem;
+     @media (max-width: 1000px) {
+    font-size: calc(16px + .4vw);
+  }
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $primary-color;
+  font-family: $heading-font-family;
+}
+
+h1 {
+  font-size: $h1;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-top: $span;
+}
+
+h2 {
+  font-size: $h2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+h3 {
+  font-size: $h3;
+  letter-spacing: 0.7px;
+}
+
+h4 {
+  font-size: $h4;
+}
+
+
+.p-white {
+  color: $secondary-color-light;
+  font-family: $body-font-family;
+  font-size: $paragraph;
+}
+
+
+.p-black {
+  color: $secondary-color-dark;
+  font-family: $body-font-family;
+  font-size: $paragraph;
+}
+
+span {
+  font-family: $body-font-family;
+  font-size: $span;
+}
+
+i {
+  font-family: $body-font-family;
+  font-size: $span;
+}
+

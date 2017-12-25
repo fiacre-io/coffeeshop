@@ -1,0 +1,10 @@
+# Ignore Node Modules
+node_modules
+
+# Ignore images
+dist/assets
+
+# Sass Cache
+.sass-cache
+
+.DS_Store

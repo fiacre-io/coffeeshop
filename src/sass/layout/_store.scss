@@ -1,0 +1,145 @@
+/*   Store*/
+
+.store {
+  background-color: $secondary-color-light;
+  min-height: $min-height;
+  padding: 0;
+  margin: $margin-auto;
+}
+
+.store-title {
+  text-align: center;
+h2 {
+  padding: 90px 0 0 0;
+  margin-top: 0;
+}
+button {
+  margin: 1rem;
+}
+}
+
+// Individual store items
+
+.store-items {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  margin: $margin-auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.store-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: $margin-auto;
+ span {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 15px;
+}
+img {
+  object-fit: cover;
+  flex: 1;
+  align-items: center;
+  max-width: 300px;
+  max-height: 300px;
+}
+.titles {
+  margin-top: 240px;
+  position: absolute;
+  min-height: 60px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(31, 31, 31, 0.7);
+  font-family: $heading-font-family;
+  font-size: 27px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  color: $secondary-color-light;
+}
+}
+
+.store-price {
+  height: 70px;
+  width: 70px;
+  color: black;
+  font-family: $body-font-family;
+  font-size: 30px;
+  font-weight: 400;
+  border-radius: $border-radius;
+  background-color: $primary-color;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.cart {
+  display: inline-block;
+button {
+  border: none;
+  margin: 0;
+}
+}
+
+
+
+/*    Testimonials  */
+
+.testimonials {
+  background: url(../assets/testimonial_background.png) repeat center center;
+  background-color: #FACA36;
+  background-size: contain;
+  min-height: 60vh;
+ h2 {
+  padding: $section-title;
+  color: $secondary-color-light;
+  text-align: center;
+  margin-top: 0;
+} blockquote {
+  padding: 0 3rem 1rem 3rem;
+  max-width: 1000px;
+  margin: $margin-auto;
+  text-align: center;
+  quotes: "\201C""\201D""\2018""\2019";
+  z-index: 1;
+}
+}
+
+blockquote:before {
+  color: #FFFFFF;
+  content: open-quote;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+  font-family: Georgia, serif;
+  font-size: 90px;
+  font-weight: bold;
+  z-index: 0;
+}
+
+
+.subject {
+  max-width: 1000px;
+  margin: $margin-auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+.name {
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+span {
+  color: black;
+  font-size: 20px;
+}
+}

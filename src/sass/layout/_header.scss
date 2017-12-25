@@ -1,0 +1,63 @@
+/*  Header*/
+
+
+.header {
+  background: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 47%,rgba(0,0,0,0) 100%), url(../assets/header.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  img {
+    border: 12px solid $secondary-color-dark;
+    border-radius: $border-radius;
+    position: absolute;
+  }
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+.top-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.site-title {
+  margin: 140px 0 40px;
+  .kafeinate {
+   color: $primary-color;
+   font-family: $heading-font-family;
+   font-size: 70px;
+   font-weight: 700;
+   line-height: 40px;
+   text-transform: uppercase;
+   letter-spacing: 0.7px;
+ }
+ .coffee {
+  color: $secondary-color-light;
+  font-family: $heading-font-family;
+   font-size: 70px;
+   font-weight: 700;
+   line-height: 40px;
+   text-transform: uppercase;
+   letter-spacing: 0.7px;
+}
+}
+
+@media (max-width: 980px) {
+
+  // Grid Header
+
+.top-content {
+  margin: $margin-auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 3rem;
+}
+  }

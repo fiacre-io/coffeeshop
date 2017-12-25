@@ -1,0 +1,53 @@
+/*  Services  */
+
+
+.grid-service {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 70px;
+  margin: $margin-auto;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+img {
+  flex: 1;
+}
+}
+
+.services {
+ background-color: $background-color;
+ min-height: 100vh;
+ h2 {
+  padding: $section-title;
+  text-align: center;
+  margin-top: 0;
+}
+p {
+  margin: auto 20%;
+  text-align: center;
+}
+h3 {
+  margin: 20px 0;
+  text-align: center;
+  color: black;
+}
+img {
+  border: 14px solid $secondary-color-light;
+  border-radius: $border-radius;
+  margin: $margin-auto;
+  width: 75%;
+  height: 75%;
+}
+}
+
+.service p {
+  margin: 0 20px;
+}
+
+.main-service {
+  margin-top: 5%;
+}
